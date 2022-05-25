@@ -8,10 +8,10 @@ import { get } from "https"
 import { getDefaultRelaySigningKey } from "./utils";
 import UniswappyV2PairDAO from "./models/UniswappyV2Pair";
 
-const ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL || "https://mainnet.infura.io/v3/748f564bb0e84e8eb54fbe64fd25c224"
-const SECRET_KEY = 'a8483d0fec1f4a909fa181e176076dfb'
-const PRIVATE_KEY = process.env.PRIVATE_KEY || "4c330c649f8de48c6def02ae6e6f206892a8f33c80255e42b2bddfed70af9b6d"
-const BUNDLE_EXECUTOR_ADDRESS = process.env.BUNDLE_EXECUTOR_ADDRESS || "0x14E09600f4ED3A0c3bca9F7499D65a9E20d384D1"
+const ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL || ""
+const SECRET_KEY = ''
+const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
+const BUNDLE_EXECUTOR_ADDRESS = process.env.BUNDLE_EXECUTOR_ADDRESS || ""
 
 const FLASHBOTS_RELAY_SIGNING_KEY = process.env.FLASHBOTS_RELAY_SIGNING_KEY || getDefaultRelaySigningKey();
 
