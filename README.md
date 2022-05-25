@@ -22,8 +22,6 @@ _It is important to keep both the bot wallet private key and bundleExecutor owne
 
 ```
 $ npm install
-$ PRIVATE_KEY=__PRIVATE_KEY_FROM_ABOVE__ \
-    BUNDLE_EXECUTOR_ADDRESS=__DEPLOYED_ADDRESS_FROM_ABOVE__ \
-    FLASHBOTS_RELAY_SIGNING_KEY=__RANDOM_ETHEREUM_PRIVATE_KEY__ \
-      npm run start
+$ docker-compose up --build
+& npm run start
 ```
